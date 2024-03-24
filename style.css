@@ -1,0 +1,108 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#easyDifficulty {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 20vw;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+#mediumDifficulty {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50vw;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+#hardDifficulty {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 80vw;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+#leftHand {
+  top: 60vh;
+  left: 20vw;
+  height: 200px;
+  width: 200px;
+  background: url("chopsticks/oneSticks.jpg");
+  position: absolute;
+  display: none;
+}
+
+#rightHand {
+  top: 60vh;
+  left: 60vw;
+  height: 200px;
+  width: 200px;
+  background: url("chopsticks/oneSticks.jpg");
+  position: absolute;
+  display: none;
+}
+
+#computerLeft {
+  top: 20vh;
+  left: 20vw;
+  height: 200px;
+  width: 200px;
+  background: url("chopsticks/oneSticks.jpg");
+  transform: rotate(180deg);
+  position: absolute;
+  display: none;
+}
+
+#computerRight {
+  top: 20vh;
+  left: 60vw;
+  height: 200px;
+  width: 200px;
+  background: url("chopsticks/oneSticks.jpg");
+  transform: rotate(180deg);
+  position: absolute;
+  display: none;
+}
+
+#fourSplit0 {
+  top: 60vh;
+  left: 50vw;
+  width: 80px;
+  transform: translate(-80px, 200px);
+  position: absolute;
+  display: none;
+}
+
+#fourSplit1 {
+  top: 60vh;
+  left: 20vw;
+  width: 80px;
+  transform: translate(60px, 200px);
+  position: absolute;
+  display: none;
+}
+
+#fourSplit2 {
+  top: 60vh;
+  left: 60vw;
+  width: 80px;
+  transform: translate(60px, 200px);
+  position: absolute;
+  display: none;
+}
+
+#thinkingText {
+  top: 10vh;
+  width: 80px;
+  left: 50%;
+  position: absolute;
+  display: none;
+}
