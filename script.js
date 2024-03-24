@@ -420,10 +420,10 @@ function optimalChoice() {
     if(cHighest + Math.max(p1, p2) >= 5 && cHighest + Math.min(p1, p2) < 5) {
       if(p1 > p2) currentBoard[0][0] += cHighest;
       else currentBoard[0][1] += cHighest;
-    } else if(c1 + c2 > 1 && c1 + c2 < 7) computerSplit();
+    } else if(cHighest > 1 && c1 + c2 < 7) computerSplit();
     else {
-      if(currentBoard[0][0] > 0) currentBoard[0][0] += Math.max(c1, c2);
-      else currentBoard[0][1] += Math.max(c1, c2);
+      if(p1 > p2) currentBoard[0][0] += cHighest;
+      else currentBoard[0][1] += cHighest;
     }
   }
   else if((p1 == 1 || p2 == 1) && (Math.max(p1, p2) + cHighest >= 5)) {
@@ -472,7 +472,8 @@ function optimalChoice() {
     }
   }
   else {
-    randomChoice(); //This should never happen, but just in case.
+    if(p1 > p2) currentBoard[0][0] += cHighest;
+    else currentBoard[0][1] += cHighest;
   }
 
   if(c1 != currentBoard[1][0]) {
