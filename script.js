@@ -188,49 +188,49 @@ function updateImages() {
   if(p1 == 0) {
     leftHandButton.style.background = 'none';
   } else if(p1 == 1) {
-    leftHandButton.style.background = 'url("chopsticks/oneSticks.jpg")';
+    leftHandButton.style.background = 'url("oneSticks.jpg")';
   } else if(p1 == 2) {
-    leftHandButton.style.background = 'url("chopsticks/twoSticks.jpg")';
+    leftHandButton.style.background = 'url("twoSticks.jpg")';
   } else if(p1 == 3) {
-    leftHandButton.style.background = 'url("chopsticks/threeSticks.jpg")';
+    leftHandButton.style.background = 'url("threeSticks.jpg")';
   } else if(p1 == 4) {
-    leftHandButton.style.background = 'url("chopsticks/fourSticks.jpg")';
+    leftHandButton.style.background = 'url("fourSticks.jpg")';
   } else alert("p1: " + p1 + " p2: " + p2);
 
   if(p2 == 0) {
     rightHandButton.style.background = 'none';
   } else if(p2 == 1) {
-    rightHandButton.style.background = 'url("chopsticks/oneSticks.jpg")';
+    rightHandButton.style.background = 'url("oneSticks.jpg")';
   } else if(p2 == 2) {
-    rightHandButton.style.background = 'url("chopsticks/twoSticks.jpg")';
+    rightHandButton.style.background = 'url("twoSticks.jpg")';
   } else if(p2 == 3) {
-    rightHandButton.style.background = 'url("chopsticks/threeSticks.jpg")';
+    rightHandButton.style.background = 'url("threeSticks.jpg")';
   } else if(p2 == 4) {
-    rightHandButton.style.background = 'url("chopsticks/fourSticks.jpg")';
+    rightHandButton.style.background = 'url("fourSticks.jpg")';
   } else alert("p1: " + p1 + " p2:" + p2);
 
   if(c1 == 0) {
     leftComputerButton.style.background = 'none';
   } else if(c1 == 1) {
-    leftComputerButton.style.background = 'url("chopsticks/oneSticks.jpg")';
+    leftComputerButton.style.background = 'url("oneSticks.jpg")';
   } else if(c1 == 2) {
-    leftComputerButton.style.background = 'url("chopsticks/twoSticks.jpg")';
+    leftComputerButton.style.background = 'url("twoSticks.jpg")';
   } else if(c1 == 3) {
-    leftComputerButton.style.background = 'url("chopsticks/threeSticks.jpg")';
+    leftComputerButton.style.background = 'url("threeSticks.jpg")';
   } else if(c1 == 4) {
-    leftComputerButton.style.background = 'url("chopsticks/fourSticks.jpg")';
+    leftComputerButton.style.background = 'url("fourSticks.jpg")';
   } else alert("c1: " + c1 + " c2: " + c2);
 
   if(c2 == 0) {
     rightComputerButton.style.background = 'none';
   } else if(c2 == 1) {
-    rightComputerButton.style.background = 'url("chopsticks/oneSticks.jpg")';
+    rightComputerButton.style.background = 'url("oneSticks.jpg")';
   } else if(c2 == 2) {
-    rightComputerButton.style.background = 'url("chopsticks/twoSticks.jpg")';
+    rightComputerButton.style.background = 'url("twoSticks.jpg")';
   } else if(c2 == 3) {
-    rightComputerButton.style.background = 'url("chopsticks/threeSticks.jpg")';
+    rightComputerButton.style.background = 'url("threeSticks.jpg")';
   } else if(c2 == 4) {
-    rightComputerButton.style.background = 'url("chopsticks/fourSticks.jpg")';
+    rightComputerButton.style.background = 'url("fourSticks.jpg")';
   } else alert("c1: " + c1 + " c2: " + c2);
   
   if(leftHandSelected) {
